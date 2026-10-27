@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e5e7eb;
+  font-family: 'Inter', system-ui, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+:root {
+  --sidebar-bg: linear-gradient(180deg, #020617, rgba(2, 6, 23, 0.8));
+  --card-bg: rgba(15, 23, 42, 0.7);
+  --accent: #22c55e;
+  --accent-hover: #16a34a;
+  --team-color: #38bdf8;
+  --border-color: #1e293b;
+}
